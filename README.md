@@ -1,1 +1,7 @@
-# JavascriptDemo
+###
+
+#JavaScript Demo
+
+###
+
+Exploring Github
