@@ -106,5 +106,6 @@ function init()
 				console.log(x +'----'+Students[x].id)
 			}	
 
-			
+			console.log(Students[2]); //Accesing particular object completely 
+			console.log(Students[2].name) // Particular value of object
 }
