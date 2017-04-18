@@ -76,7 +76,7 @@ function init()
 
 	//----Array containing objects as element (Array of Objects)----- 
 
-		const Students= [
+		var Students= [
 
 			{
 				title : 'Mean',
@@ -106,6 +106,8 @@ function init()
 				console.log(x +'----'+Students[x].id)
 			}	
 
-			console.log(Students[2]); //Accesing particular object completely 
-			console.log(Students[2].name) // Particular value of object
+			//console.log(Students[2]); //Accesing particular object completely 
+			//console.log(Students[2].name) // Particular value of object
+			console.log(typeof Students);
+			console.log(typeof(Students[2].id));
 }
